@@ -2,8 +2,8 @@
 // Created by CompuFire on 22/03/2025.
 //
 
-#include "idea2.h"
 #include <iostream>
+#include <math.h>
 
 // función
 int operacion(int num1, int num2, char op);
@@ -56,7 +56,7 @@ int main() {
             std::cin >> num1;
 
                 if (num1 >= 0) {
-                    return (num1);
+                    return sqrt(num1);
                 } else {
                     std::cout << "Error: No se puede calcular la raíz cuadrada de un número negativo." << std::endl;
                     return 0;
